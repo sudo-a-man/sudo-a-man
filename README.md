@@ -11,6 +11,7 @@
 [![Zero-Trust Architecture](https://img.shields.io/badge/Security_Domain-Zero_Trust_&_CI_Governance-38bdf8?style=for-the-badge&color=38bdf8&labelColor=020617&logo=securityscorecard)](https://github.com/sudo-a-man)
 [![Conference Lead](https://img.shields.io/badge/BSides_Dehradun-Lead_Organizer-818cf8?style=for-the-badge&color=818cf8&labelColor=020617&logo=radar)](https://bsidesdehradun.com)
 [![X (Twitter)](https://img.shields.io/badge/X-@sudoaman-0f172a?style=for-the-badge&color=0f172a&labelColor=020617&logo=x)](https://x.com/sudoaman)
+[![Direct Contact](https://img.shields.io/badge/Verified_Email-sudoamansec@gmail.com-ea4335?style=for-the-badge&color=ea4335&labelColor=020617&logo=gmail&logoColor=white)](mailto:sudoamansec@gmail.com)
 
 <br/>
 
@@ -128,6 +129,7 @@ My work sits at the critical intersection of **cryptographic integrity, runtime 
 
 <div align="center">
 
+**[Direct Contact (Email)](mailto:sudoamansec@gmail.com)** &nbsp;•&nbsp;
 **[GitHub Profile](https://github.com/sudo-a-man)** &nbsp;•&nbsp;
 **[The LeetSec Org](https://github.com/theleetsec)** &nbsp;•&nbsp;
 **[BSides Dehradun](https://bsidesdehradun.com)** &nbsp;•&nbsp;
