@@ -7,7 +7,7 @@
 <br/>
 
 [![GitHub followers](https://img.shields.io/github/followers/sudo-a-man?style=for-the-badge&color=0f172a&labelColor=020617&logo=github)](https://github.com/sudo-a-man)
-[![Open Source Merged PRs](https://img.shields.io/badge/Verified_OSS_PRs-18+_Merged-10b981?style=for-the-badge&color=10b981&labelColor=020617&logo=git)](https://github.com/sudo-a-man)
+[![Open Source Merged PRs](https://img.shields.io/badge/Verified_OSS_PRs-18+_Merged_•_18_Open-10b981?style=for-the-badge&color=10b981&labelColor=020617&logo=git)](https://github.com/sudo-a-man)
 [![Zero-Trust Architecture](https://img.shields.io/badge/Security_Domain-Zero_Trust_&_CI_Governance-38bdf8?style=for-the-badge&color=38bdf8&labelColor=020617&logo=securityscorecard)](https://github.com/sudo-a-man)
 [![Conference Lead](https://img.shields.io/badge/BSides_Dehradun-Lead_Organizer-818cf8?style=for-the-badge&color=818cf8&labelColor=020617&logo=radar)](https://bsidesdehradun.com)
 [![X (Twitter)](https://img.shields.io/badge/X-@sudoaman-0f172a?style=for-the-badge&color=0f172a&labelColor=020617&logo=x)](https://x.com/sudoaman)
@@ -55,11 +55,19 @@ My work sits at the critical intersection of **cryptographic integrity, runtime 
 
 <br/>
 
-#### 🔹 [MedusaJS (`medusajs/medusa`)](https://github.com/medusajs/medusa) — Open Source Modular Commerce Platform
-*Active contributor enhancing dashboard resilience, telemetry, and client parameter validation.*
-* **Notification State Resilience:** Resolved client-side toast notification state drift, introducing explicit dismiss handlers to prevent memory leaks and zombie DOM nodes ([#17241](https://github.com/medusajs/medusa/pull/17241)).
-* **Chronological Sort Inversion:** Corrected inverted sort-order label telemetry in the core admin dashboard interface ([#17242](https://github.com/medusajs/medusa/pull/17242)).
+#### 🔹 [MedusaJS (`medusajs/medusa`)](https://github.com/medusajs/medusa) — Enterprise Open Source Commerce Platform (25,000+ ⭐)
+*Active contributor enhancing core UI reliability, telemetry, and administrative query parameters.*
+* **Notification State Resilience:** Resolved client-side toast notification state drift, introducing explicit dismiss handlers to prevent memory leaks and zombie DOM nodes ([#17241](https://github.com/medusajs/medusa/pull/17241)) — **`initial-approval`** ✅ *(automated audit passed with zero security/performance flaws)*.
+* **Chronological Sort Inversion:** Corrected inverted sort-order label telemetry in the core admin dashboard interface ([#17242](https://github.com/medusajs/medusa/pull/17242)) — **`initial-approval`** ✅ *(verified changeset)*.
 * **Input Boundary Sanitization:** Added telephone filter query parameter parsing and defensive handling to customer administration endpoints ([#17243](https://github.com/medusajs/medusa/pull/17243)).
+
+<br/>
+
+#### 🔹 [SUSU-LABS](https://github.com/SUSU-LABS) — Decentralized Web & Data Infrastructure
+*Author of 10 targeted reliability and boundary-hardening pull requests across full-stack repositories.*
+* **Web Client Architecture (`susu-web`):** Runtime response validation with Zod schemas ([#96](https://github.com/SUSU-LABS/susu-web/pull/96)); async auth session recovery ([#94](https://github.com/SUSU-LABS/susu-web/pull/94)); configurable API network timeouts ([#93](https://github.com/SUSU-LABS/susu-web/pull/93)); wallet race-condition concurrency guards ([#89](https://github.com/SUSU-LABS/susu-web/pull/89)).
+* **Backend API Resilience (`susu-api`):** Graceful PostgreSQL connection pool termination on SIGTERM/SIGINT ([#100](https://github.com/SUSU-LABS/susu-api/pull/100)); nonce-reaping lifecycle synchronization ([#101](https://github.com/SUSU-LABS/susu-api/pull/101)); group boundary invite leak protection ([#102](https://github.com/SUSU-LABS/susu-api/pull/102)).
+* **Blockchain Indexer (`susu-indexer`):** Resilient in-flight `pg_cron` alert scheduling ([#79](https://github.com/SUSU-LABS/susu-indexer/pull/79)).
 
 <br/>
 
