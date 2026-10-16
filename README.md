@@ -7,7 +7,7 @@
 <br/>
 
 [![GitHub followers](https://img.shields.io/github/followers/sudo-a-man?style=for-the-badge&color=0f172a&labelColor=020617&logo=github)](https://github.com/sudo-a-man)
-[![Open Source Merged PRs](https://img.shields.io/badge/Verified_OSS_PRs-21_Merged_•_22_Open-10b981?style=for-the-badge&color=10b981&labelColor=020617&logo=git)](https://github.com/sudo-a-man)
+[![Open Source Merged PRs](https://img.shields.io/badge/Verified_OSS_PRs-21_Merged_•_23_Open-10b981?style=for-the-badge&color=10b981&labelColor=020617&logo=git)](https://github.com/sudo-a-man)
 [![Zero-Trust Architecture](https://img.shields.io/badge/Security_Domain-Zero_Trust_&_CI_Governance-38bdf8?style=for-the-badge&color=38bdf8&labelColor=020617&logo=securityscorecard)](https://github.com/sudo-a-man)
 [![Conference Lead](https://img.shields.io/badge/BSides_Dehradun-Lead_Organizer-818cf8?style=for-the-badge&color=818cf8&labelColor=020617&logo=radar)](https://bsidesdehradun.com)
 [![X (Twitter)](https://img.shields.io/badge/X-@sudoaman-0f172a?style=for-the-badge&color=0f172a&labelColor=020617&logo=x)](https://x.com/sudoaman)
@@ -34,7 +34,7 @@ My work sits at the critical intersection of **cryptographic integrity, runtime 
 
 * **Fail-Closed by Construction:** Eradicating unhandled fallback states, unvalidated edge boundaries, and untyped parameters at ingress.
 * **Deterministic Release Governance:** Building automated CI gates that reject deployments unless verified by independent SAST, security test suites, and cryptographic audit trails.
-* **Production Open-Source Impact:** 21 pull requests merged into canonical production repositories powering cryptographic infrastructure, commerce engines, and decentralized networks, with 22 active pull requests in review.
+* **Production Open-Source Impact:** 21 pull requests merged into canonical production repositories powering cryptographic infrastructure, commerce engines, and decentralized networks, with 23 active pull requests in review.
 
 ---
 
@@ -56,7 +56,8 @@ My work sits at the critical intersection of **cryptographic integrity, runtime 
 <br/>
 
 #### 🔹 [MedusaJS (`medusajs/medusa`)](https://github.com/medusajs/medusa) — Enterprise Open Source Commerce Platform (25,000+ ⭐)
-*Core Contributor authoring performance optimizations, query engine resilience, and UI telemetry fixes across `@medusajs/product`, `@medusajs/core-flows`, `@medusajs/dashboard`, and `@medusajs/ui`.*
+*Core Contributor authoring performance optimizations, query engine resilience, and UI telemetry fixes across `@medusajs/locking`, `@medusajs/product`, `@medusajs/core-flows`, `@medusajs/dashboard`, and `@medusajs/ui`.*
+* **Multi-Key Locking Deadlock Prevention & Rollback:** Fixed lock-leak and deadlock vulnerability across in-memory, Redis, and PostgreSQL locking providers by tracking acquired keys and executing atomic rollbacks on partial acquisition failures ([#17318](https://github.com/medusajs/medusa/pull/17318)) — **`initial-approval`** ✅ *(automated audit passed with zero security/performance flaws)*.
 * **Variant Image Hydration Bottleneck:** Eliminated $O(\text{product images} \times \text{product variants})$ entity hydration overhead in `getVariantImages` by replacing unbounded `listProductImages` relational loads with direct scoped pivot queries ([#17304](https://github.com/medusajs/medusa/pull/17304)).
 * **Mobile Admin Pointer-Events & Latency Deadlock:** Fixed mobile dashboard deadlock caused by unmounted Radix UI modal state leaving `pointer-events: none` on `<body>`, and eliminated dropped redirects under remote latency via `try/finally` query cleanup ([#17300](https://github.com/medusajs/medusa/pull/17300)).
 * **Draft Order Price Override Preservation:** Fixed bug in `createDraftOrdersWorkflow` where custom shipping method prices were overwritten with default calculated method prices ([#17298](https://github.com/medusajs/medusa/pull/17298)) — *(verified changeset)*.
@@ -67,7 +68,7 @@ My work sits at the critical intersection of **cryptographic integrity, runtime 
 <br/>
 
 #### 🔹 [Dokploy (`Dokploy/dokploy`)](https://github.com/Dokploy/dokploy) — Enterprise Self-Hosted PaaS Alternative to Vercel/Heroku (15,000+ ⭐)
-* **Production RBAC & Organization Teams Management:** Engineered full team lifecycle management, atomic ownership transfer with PostgreSQL row-level locking (`FOR UPDATE`), paid/enterprise plan preservation safeguards, and stale invitation pruning ([#5695](https://github.com/Dokploy/dokploy/pull/5695)) — *(resolves and closes #1413)*.
+* **Production RBAC & Organization Teams Management:** Engineered full team lifecycle management, atomic ownership transfer with PostgreSQL row-level locking (`FOR UPDATE`), paid/enterprise plan preservation safeguards, and stale invitation pruning ([#5695](https://github.com/Dokploy/dokploy/pull/5695)) — *(resolves and closes #1413, addressed automated code review, 19/19 unit tests passing)*.
 
 <br/>
 
