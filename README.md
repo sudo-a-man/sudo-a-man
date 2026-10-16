@@ -7,7 +7,7 @@
 <br/>
 
 [![GitHub followers](https://img.shields.io/github/followers/sudo-a-man?style=for-the-badge&color=0f172a&labelColor=020617&logo=github)](https://github.com/sudo-a-man)
-[![Open Source Merged PRs](https://img.shields.io/badge/Verified_OSS_PRs-21_Merged_•_21_Open-10b981?style=for-the-badge&color=10b981&labelColor=020617&logo=git)](https://github.com/sudo-a-man)
+[![Open Source Merged PRs](https://img.shields.io/badge/Verified_OSS_PRs-21_Merged_•_22_Open-10b981?style=for-the-badge&color=10b981&labelColor=020617&logo=git)](https://github.com/sudo-a-man)
 [![Zero-Trust Architecture](https://img.shields.io/badge/Security_Domain-Zero_Trust_&_CI_Governance-38bdf8?style=for-the-badge&color=38bdf8&labelColor=020617&logo=securityscorecard)](https://github.com/sudo-a-man)
 [![Conference Lead](https://img.shields.io/badge/BSides_Dehradun-Lead_Organizer-818cf8?style=for-the-badge&color=818cf8&labelColor=020617&logo=radar)](https://bsidesdehradun.com)
 [![X (Twitter)](https://img.shields.io/badge/X-@sudoaman-0f172a?style=for-the-badge&color=0f172a&labelColor=020617&logo=x)](https://x.com/sudoaman)
@@ -34,7 +34,7 @@ My work sits at the critical intersection of **cryptographic integrity, runtime 
 
 * **Fail-Closed by Construction:** Eradicating unhandled fallback states, unvalidated edge boundaries, and untyped parameters at ingress.
 * **Deterministic Release Governance:** Building automated CI gates that reject deployments unless verified by independent SAST, security test suites, and cryptographic audit trails.
-* **Production Open-Source Impact:** 21 pull requests merged into canonical production repositories powering cryptographic infrastructure, commerce engines, and decentralized networks, with 21 active pull requests in review.
+* **Production Open-Source Impact:** 21 pull requests merged into canonical production repositories powering cryptographic infrastructure, commerce engines, and decentralized networks, with 22 active pull requests in review.
 
 ---
 
@@ -63,6 +63,11 @@ My work sits at the critical intersection of **cryptographic integrity, runtime 
 * **Notification State Resilience:** Resolved client-side toast notification state drift, introducing explicit dismiss handlers to prevent memory leaks and zombie DOM nodes ([#17241](https://github.com/medusajs/medusa/pull/17241)) — **`initial-approval`** ✅ *(automated audit passed with zero security/performance flaws)*.
 * **Chronological Sort Inversion:** Corrected inverted sort-order label telemetry in the core admin dashboard interface ([#17242](https://github.com/medusajs/medusa/pull/17242)) — **`initial-approval`** ✅ *(verified changeset)*.
 * **Input Boundary Sanitization:** Added telephone filter query parameter parsing and defensive handling to customer administration endpoints ([#17243](https://github.com/medusajs/medusa/pull/17243)) — **`initial-approval`** ✅.
+
+<br/>
+
+#### 🔹 [Dokploy (`Dokploy/dokploy`)](https://github.com/Dokploy/dokploy) — Enterprise Self-Hosted PaaS Alternative to Vercel/Heroku (15,000+ ⭐)
+* **Production RBAC & Organization Teams Management:** Engineered full team lifecycle management, atomic ownership transfer with PostgreSQL row-level locking (`FOR UPDATE`), paid/enterprise plan preservation safeguards, and stale invitation pruning ([#5695](https://github.com/Dokploy/dokploy/pull/5695)) — *(resolves and closes #1413)*.
 
 <br/>
 
