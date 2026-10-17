@@ -7,7 +7,7 @@
 <br/>
 
 [![GitHub followers](https://img.shields.io/github/followers/sudo-a-man?style=for-the-badge&color=0f172a&labelColor=020617&logo=github)](https://github.com/sudo-a-man)
-[![Open Source Merged PRs](https://img.shields.io/badge/Verified_OSS_PRs-21_Merged_•_28_Open-10b981?style=for-the-badge&color=10b981&labelColor=020617&logo=git)](https://github.com/sudo-a-man)
+[![Open Source Merged PRs](https://img.shields.io/badge/Verified_OSS_PRs-21_Merged_•_29_Open-10b981?style=for-the-badge&color=10b981&labelColor=020617&logo=git)](https://github.com/sudo-a-man)
 [![Zero-Trust Architecture](https://img.shields.io/badge/Security_Domain-Zero_Trust_&_CI_Governance-38bdf8?style=for-the-badge&color=38bdf8&labelColor=020617&logo=securityscorecard)](https://github.com/sudo-a-man)
 [![Conference Lead](https://img.shields.io/badge/BSides_Dehradun-Lead_Organizer-818cf8?style=for-the-badge&color=818cf8&labelColor=020617&logo=radar)](https://bsidesdehradun.com)
 [![X (Twitter)](https://img.shields.io/badge/X-@sudoaman-0f172a?style=for-the-badge&color=0f172a&labelColor=020617&logo=x)](https://x.com/sudoaman)
@@ -83,6 +83,7 @@ My work sits at the critical intersection of **cryptographic integrity, runtime 
 
 #### 🔹 [Hybrid (`limitlessprojects/Go-Hybrid`)](https://github.com/limitlessprojects/Go-Hybrid) — Memory-Safe Go Superset
 * **Fail-Closed Managed Safety Gate Hardening:** Fixed critical gate soundness bug in `tools/managed_gate.py` that silently reported PASS and erased committed baselines on empty program lists, and scoped uninspected block filtering and rebaselining to audited files ([#434](https://github.com/limitlessprojects/Go-Hybrid/pull/434)) — *(107/107 unit tests passing)*.
+* **Differential Corpus Output Verification:** Added strict parsing and stdout validation for registered `EXPECTED-OUTPUT` test assertions in `tools/differential_loop.py`, preventing false agreement reports on mismatched or missing output ([#441](https://github.com/limitlessprojects/Go-Hybrid/pull/441)) — *(resolves #396, 11/11 output tests passing & registered in CI)*.
 
 <br/>
 
