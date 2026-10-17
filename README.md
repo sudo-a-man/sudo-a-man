@@ -7,7 +7,7 @@
 <br/>
 
 [![GitHub followers](https://img.shields.io/github/followers/sudo-a-man?style=for-the-badge&color=0f172a&labelColor=020617&logo=github)](https://github.com/sudo-a-man)
-[![Open Source Merged PRs](https://img.shields.io/badge/Verified_OSS_PRs-21_Merged_•_31_Open-10b981?style=for-the-badge&color=10b981&labelColor=020617&logo=git)](https://github.com/sudo-a-man)
+[![Open Source Merged PRs](https://img.shields.io/badge/Verified_OSS_PRs-21_Merged_•_30_Open-10b981?style=for-the-badge&color=10b981&labelColor=020617&logo=git)](https://github.com/sudo-a-man)
 [![Zero-Trust Architecture](https://img.shields.io/badge/Security_Domain-Zero_Trust_&_CI_Governance-38bdf8?style=for-the-badge&color=38bdf8&labelColor=020617&logo=securityscorecard)](https://github.com/sudo-a-man)
 [![Conference Lead](https://img.shields.io/badge/BSides_Dehradun-Lead_Organizer-818cf8?style=for-the-badge&color=818cf8&labelColor=020617&logo=radar)](https://bsidesdehradun.com)
 [![X (Twitter)](https://img.shields.io/badge/X-@sudoaman-0f172a?style=for-the-badge&color=0f172a&labelColor=020617&logo=x)](https://x.com/sudoaman)
@@ -34,7 +34,7 @@ My work sits at the critical intersection of **cryptographic integrity, runtime 
 
 * **Fail-Closed by Construction:** Eradicating unhandled fallback states, unvalidated edge boundaries, and untyped parameters at ingress.
 * **Deterministic Release Governance:** Building automated CI gates that reject deployments unless verified by independent SAST, security test suites, and cryptographic audit trails.
-* **Production Open-Source Impact:** 21 pull requests merged into canonical production repositories powering cryptographic infrastructure, commerce engines, and decentralized networks, with 31 active pull requests in review.
+* **Production Open-Source Impact:** 21 pull requests merged into canonical production repositories powering cryptographic infrastructure, commerce engines, and decentralized networks, with 30 active pull requests in review.
 
 ---
 
