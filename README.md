@@ -7,7 +7,7 @@
 <br/>
 
 [![GitHub followers](https://img.shields.io/github/followers/sudo-a-man?style=for-the-badge&color=0f172a&labelColor=020617&logo=github)](https://github.com/sudo-a-man)
-[![Open Source Merged PRs](https://img.shields.io/badge/Verified_OSS_PRs-21_Merged_•_26_Open-10b981?style=for-the-badge&color=10b981&labelColor=020617&logo=git)](https://github.com/sudo-a-man)
+[![Open Source Merged PRs](https://img.shields.io/badge/Verified_OSS_PRs-21_Merged_•_27_Open-10b981?style=for-the-badge&color=10b981&labelColor=020617&logo=git)](https://github.com/sudo-a-man)
 [![Zero-Trust Architecture](https://img.shields.io/badge/Security_Domain-Zero_Trust_&_CI_Governance-38bdf8?style=for-the-badge&color=38bdf8&labelColor=020617&logo=securityscorecard)](https://github.com/sudo-a-man)
 [![Conference Lead](https://img.shields.io/badge/BSides_Dehradun-Lead_Organizer-818cf8?style=for-the-badge&color=818cf8&labelColor=020617&logo=radar)](https://bsidesdehradun.com)
 [![X (Twitter)](https://img.shields.io/badge/X-@sudoaman-0f172a?style=for-the-badge&color=0f172a&labelColor=020617&logo=x)](https://x.com/sudoaman)
@@ -34,7 +34,7 @@ My work sits at the critical intersection of **cryptographic integrity, runtime 
 
 * **Fail-Closed by Construction:** Eradicating unhandled fallback states, unvalidated edge boundaries, and untyped parameters at ingress.
 * **Deterministic Release Governance:** Building automated CI gates that reject deployments unless verified by independent SAST, security test suites, and cryptographic audit trails.
-* **Production Open-Source Impact:** 21 pull requests merged into canonical production repositories powering cryptographic infrastructure, commerce engines, and decentralized networks, with 26 active pull requests in review.
+* **Production Open-Source Impact:** 21 pull requests merged into canonical production repositories powering cryptographic infrastructure, commerce engines, and decentralized networks, with 27 active pull requests in review.
 
 ---
 
@@ -77,6 +77,7 @@ My work sits at the critical intersection of **cryptographic integrity, runtime 
 #### 🔹 [SpaceApp (`oll4com/spaceapp`)](https://github.com/oll4com/spaceapp) — Sovereign AI Workspace & Agent Orchestration
 * **Temporal Workflow Testing & CI Replay Determinism Gate:** Engineered comprehensive time-skipping test suite (`@temporalio/testing`) across all 8 Temporal workflows and built an automated CI replay determinism gate with 9 synthetic execution histories, catching backwards-incompatible changes with `DeterminismViolationError` ([#128](https://github.com/oll4com/spaceapp/pull/128)) — *(resolves CORE-006 & #60, 29/29 test files & 237/237 tests passing)*.
 * **OTLP Worker & Workflow Spans Continuity:** Engineered end-to-end W3C trace continuity and OTLP JSON trace export from incoming API requests to Temporal workflows and retry attempts via zero-I/O sandbox interceptors and `callDuringReplay: false` sinks, with OTLP span links for continue-as-new/background continuations and strict attribute allowlisting ([#147](https://github.com/oll4com/spaceapp/pull/147)) — *(resolves #61, verified with fake OTLP collector & time-skipping integration suite)*.
+* **Full Contributor Development Stack Runner (`npm run dev:stack`):** Engineered single-command lifecycle supervision (`up`, `down`, `reset`, `status`, `verify`) orchestrating digest-pinned PostgreSQL (pgvector) and Temporal in Docker, automatic database migrations, hermetic OpenCode CLI installation with VSCode parity wrappers, and watch/HMR-enabled API, worker, and Vite web UI from source on non-colliding loopback ports ([#154](https://github.com/oll4com/spaceapp/pull/154)) — *(resolves #65, 9/9 unit and contract tests passing)*.
 
 <br/>
 
