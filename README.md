@@ -1,177 +1,81 @@
 <div align="center">
 
-# Aman Kumar
-### Principal Security Engineer • Systems Infrastructure Architect • Open Source Core Contributor
-**Founder, [The LeetSec](https://github.com/theleetsec) & [BSides Dehradun](https://github.com/bsidesdehradun)**
+![Aman Kumar · Security Researcher, Red Teamer, Bug Bounty Hunter](./assets/hero.svg)
 
 <br/>
 
-[![GitHub followers](https://img.shields.io/github/followers/sudo-a-man?style=for-the-badge&color=0f172a&labelColor=020617&logo=github)](https://github.com/sudo-a-man)
-[![Open Source Merged PRs](https://img.shields.io/badge/Verified_OSS_PRs-22_Merged_•_29_Open-10b981?style=for-the-badge&color=10b981&labelColor=020617&logo=git)](https://github.com/sudo-a-man)
-[![Zero-Trust Architecture](https://img.shields.io/badge/Security_Domain-Zero_Trust_&_CI_Governance-38bdf8?style=for-the-badge&color=38bdf8&labelColor=020617&logo=securityscorecard)](https://github.com/sudo-a-man)
-[![Conference Lead](https://img.shields.io/badge/BSides_Dehradun-Lead_Organizer-818cf8?style=for-the-badge&color=818cf8&labelColor=020617&logo=radar)](https://bsidesdehradun.com)
-[![X (Twitter)](https://img.shields.io/badge/X-@sudoaman-0f172a?style=for-the-badge&color=0f172a&labelColor=020617&logo=x)](https://x.com/sudoaman)
-[![Direct Contact](https://img.shields.io/badge/Verified_Email-sudoamansec@gmail.com-ea4335?style=for-the-badge&color=ea4335&labelColor=020617&logo=gmail&logoColor=white)](mailto:sudoamansec@gmail.com)
-
-<br/>
-
-```
-  ┌─────────────────────────────────────────────────────────────────────────────┐
-  │  SYSTEM STATUS: ALL RELEASE GATES VERIFIED [PASS]  •  ZERO UNHANDLED TRAPS  │
-  │  CORE FOCUS: RESILIENT RUNTIMES  •  DEFENSIVE BOUNDARIES  •  SUPPLY CHAIN   │
-  └─────────────────────────────────────────────────────────────────────────────┘
-```
+[![Website](https://img.shields.io/badge/LeetSec-theleetsec-2DD4BF?style=for-the-badge&labelColor=0A0E14)](https://github.com/theleetsec)
+[![BSides Dehradun](https://img.shields.io/badge/BSides_Dehradun-0x03-A78BFA?style=for-the-badge&labelColor=0A0E14)](https://bsidesdehradun.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-sudoaman-38BDF8?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A0E14)](https://linkedin.com/in/sudoaman)
+[![X](https://img.shields.io/badge/X-@sudoaman-E6EDF3?style=for-the-badge&logo=x&logoColor=white&labelColor=0A0E14)](https://x.com/sudoaman)
 
 </div>
 
----
+<br/>
 
-### 🏛️ Executive Engineering Profile
+## whoami
 
-With over a decade of deep immersion in offensive security research, systems architecture, and distributed platform engineering, I design and build **high-assurance, fail-closed software systems and automated release governance pipelines**.
+Security researcher from Dehradun, about four years deep in web application security, network penetration testing, and red teaming, now spending a lot of that time on AI and LLM red teaming. I like the bugs scanners walk past: logic flaws, broken boundaries, the request that routes somewhere it should not. Most of my public work is reconnaissance tooling and open-source security fixes.
 
-My work sits at the critical intersection of **cryptographic integrity, runtime sandboxing, and deterministic CI/CD release gating**. Rather than treating security as an afterthought or post-hoc auditing pass, I embed formal invariance verification, strict input validation, and boundary-condition assertions directly into compile and deployment pipelines.
-
-* **Fail-Closed by Construction:** Eradicating unhandled fallback states, unvalidated edge boundaries, and untyped parameters at ingress.
-* **Deterministic Release Governance:** Building automated CI gates that reject deployments unless verified by independent SAST, security test suites, and cryptographic audit trails.
-* **Production Open-Source Impact:** 21 pull requests merged into canonical production repositories powering cryptographic infrastructure, commerce engines, and decentralized networks, with 30 active pull requests in review.
-
----
-
-### 🚀 Verified Open Source Track Record & Production Contributions
-
-#### 🔹 [Sottara (`Sottara-Labs/sottara`)](https://github.com/Sottara-Labs/sottara) — High-Assurance Cryptographic Platform
-*Core Contributor responsible for automated CI release governance, security test execution, and identity resolution architecture. **18 Pull Requests Merged directly into `main`**.*
-
-| Engineering Domain | Impact Analysis & Mitigated Surface | Verified Commits / PRs | Status |
-| :--- | :--- | :--- | :---: |
-| **CI Release Governance & Evidence** | Engineered automated governance verifications into the deployment pipeline; built immutable evidence generation to guarantee auditability before release artifacts are promoted. | [#257](https://github.com/Sottara-Labs/sottara/pull/257) | **Merged** ✅ |
-| **Continuous Security Evaluation** | Hardened deployment safety by integrating the automated `test:security` test suite as a blocking gate; aligned security advisories with canonical upstream vulnerability tracking. | [#262](https://github.com/Sottara-Labs/sottara/pull/262)<br/>[#253](https://github.com/Sottara-Labs/sottara/pull/253) | **Merged** ✅ |
-| **Cryptographic Identity Defense** | Refactored `IdentityResolverService` to eradicate unsafe global fallback handlers; isolated cryptographic performance benchmarking harnesses into standalone, reproducible tooling. | [#258](https://github.com/Sottara-Labs/sottara/pull/258)<br/>[#217](https://github.com/Sottara-Labs/sottara/pull/217) | **Merged** ✅ |
-| **Pipeline Reliability & Deploy Bounding** | Hardened staging and production deployment automation by enforcing strict step execution timeouts to prevent hanging runners and pipeline resource exhaustion. | [#249](https://github.com/Sottara-Labs/sottara/pull/249)<br/>[#214](https://github.com/Sottara-Labs/sottara/pull/214) | **Merged** ✅ |
-| **Environment & Secret Isolation** | Comprehensive mapping, documentation, and isolation of multi-tier environment variables and cryptographic secret access across staging and production clusters. | [#250](https://github.com/Sottara-Labs/sottara/pull/250), [#251](https://github.com/Sottara-Labs/sottara/pull/251)<br/>[#254](https://github.com/Sottara-Labs/sottara/pull/254), [#255](https://github.com/Sottara-Labs/sottara/pull/255) | **Merged** ✅ |
-| **Boundary Defensive Testing** | Resolved subtle edge-case boundary errors in API rate-limit quotas; engineered comprehensive unit test coverage for reactive state hooks; restored WCAG-compliant accessible focus states. | [#215](https://github.com/Sottara-Labs/sottara/pull/215)<br/>[#216](https://github.com/Sottara-Labs/sottara/pull/216)<br/>[#261](https://github.com/Sottara-Labs/sottara/pull/261) | **Merged** ✅ |
-| **Preview Deployment Gating** | Enforced strict conditional gating on transient preview deployments, isolating review environments from production credentials. | [#259](https://github.com/Sottara-Labs/sottara/pull/259)<br/>[#263](https://github.com/Sottara-Labs/sottara/pull/263) | **Merged** ✅ |
+I founded [BSides Dehradun](https://bsidesdehradun.com) and run it every year, and I build [LeetSec](https://github.com/theleetsec) alongside it.
 
 <br/>
 
-#### 🔹 [MedusaJS (`medusajs/medusa`)](https://github.com/medusajs/medusa) — Enterprise Open Source Commerce Platform (25,000+ ⭐)
-*Core Contributor authoring performance optimizations, query engine resilience, and UI telemetry fixes across `@medusajs/locking`, `@medusajs/product`, `@medusajs/core-flows`, `@medusajs/dashboard`, and `@medusajs/ui`.*
-* **Distributed Workflow Lock Ownership & Lease Protection:** Eradicated silent cart-completion race conditions and stale lock deletions across Redis and distributed locking backends by defaulting `ownerId` to workflow `transactionId` in `acquireLockStep` and `releaseLockStep` ([#17324](https://github.com/medusajs/medusa/pull/17324)) — *(verified 8/8 unit tests & changeset)*.
-* **Partial Payment Capture Forwarding to Providers:** Resolved gateway over-capture vulnerability where capturing less than authorized amount recorded a partial capture internally but charged the full authorization at the payment gateway (e.g. Stripe); forwarded canonical capture amounts to provider integrations ([#17319](https://github.com/medusajs/medusa/pull/17319)) — **`initial-approval`** ✅ *(automated audit passed with zero security/performance flaws)*.
-* **Multi-Key Locking Deadlock Prevention & Rollback:** Fixed lock-leak and deadlock vulnerability across in-memory, Redis, and PostgreSQL locking providers by tracking acquired keys and executing atomic rollbacks on partial acquisition failures ([#17318](https://github.com/medusajs/medusa/pull/17318)) — **`initial-approval`** ✅ *(automated audit passed with zero security/performance flaws)*.
-* **Variant Image Hydration Bottleneck:** Eliminated $O(\text{product images} \times \text{product variants})$ entity hydration overhead in `getVariantImages` by replacing unbounded `listProductImages` relational loads with direct scoped pivot queries ([#17304](https://github.com/medusajs/medusa/pull/17304)).
-* **Mobile Admin Pointer-Events & Latency Deadlock:** Fixed mobile dashboard deadlock caused by unmounted Radix UI modal state leaving `pointer-events: none` on `<body>`, and eliminated dropped redirects under remote latency via `try/finally` query cleanup ([#17300](https://github.com/medusajs/medusa/pull/17300)).
-* **Draft Order Price Override Preservation:** Fixed bug in `createDraftOrdersWorkflow` where custom shipping method prices were overwritten with default calculated method prices ([#17298](https://github.com/medusajs/medusa/pull/17298)) — *(verified changeset)*.
-* **Notification State Resilience:** Resolved client-side toast notification state drift, introducing explicit dismiss handlers to prevent memory leaks and zombie DOM nodes ([#17241](https://github.com/medusajs/medusa/pull/17241)) — **`initial-approval`** ✅ *(automated audit passed with zero security/performance flaws)*.
-* **Chronological Sort Inversion:** Corrected inverted sort-order label telemetry in the core admin dashboard interface ([#17242](https://github.com/medusajs/medusa/pull/17242)) — **`initial-approval`** ✅ *(verified changeset)*.
-* **Input Boundary Sanitization:** Added telephone filter query parameter parsing and defensive handling to customer administration endpoints ([#17243](https://github.com/medusajs/medusa/pull/17243)) — **`initial-approval`** ✅.
+## Recognition
+
+- **Microsoft Security Response Center (MSRC)** · Researcher Leaderboard, Q3 and Q4 2025, for critical Azure and O365 findings
+- **Halls of Fame** · Microsoft, Brave, U.S. Department of Homeland Security, United Nations
+- **Top 15 Security Researcher in India, 2021** · NCIIPC (NTRO)
+- **50+ vulnerabilities** responsibly disclosed across public programs
+- **Certifications** · CEH (Practical) v12 · Certified Network Security Practitioner · Information Security Certified Professional
 
 <br/>
 
-#### 🔹 [Dokploy (`Dokploy/dokploy`)](https://github.com/Dokploy/dokploy) — Enterprise Self-Hosted PaaS Alternative to Vercel/Heroku (15,000+ ⭐)
-* **Production RBAC & Organization Teams Management:** Engineered full team lifecycle management, atomic ownership transfer with PostgreSQL row-level locking (`FOR UPDATE`), paid/enterprise plan preservation safeguards, and stale invitation pruning ([#5695](https://github.com/Dokploy/dokploy/pull/5695)) — *(resolves and closes #1413, addressed automated code review, 19/19 unit tests passing)*.
+## Open source
+
+Fourteen pull requests merged into upstream projects I do not own, with more in review. A few:
+
+| Project | Contribution | Status |
+| :--- | :--- | :---: |
+| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates/pull/17446) | Detection template for CVE-2026-90817, a critical unauthenticated REDCap RCE | Merged |
+| [limitlessprojects/Go-Hybrid](https://github.com/limitlessprojects/Go-Hybrid/pulls?q=is%3Apr+author%3Asudo-a-man) | 5 fixes to the compiler's soundness gates and differential test harness | Merged |
+| [Sottara-Labs/sottara](https://github.com/Sottara-Labs/sottara/pulls?q=is%3Apr+author%3Asudo-a-man) | 8 fixes across CI release gating, rate-limit boundaries, and identity resolution | Merged |
+| [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog/pulls?q=is%3Apr+author%3Asudo-a-man) | RunPod and Fireworks AI API key detectors | In review |
 
 <br/>
 
-#### 🔹 [SpaceApp (`oll4com/spaceapp`)](https://github.com/oll4com/spaceapp) — Sovereign AI Workspace & Agent Orchestration
-* **Temporal Workflow Testing & CI Replay Determinism Gate:** Engineered comprehensive time-skipping test suite (`@temporalio/testing`) across all 8 Temporal workflows and built an automated CI replay determinism gate with 9 synthetic execution histories, catching backwards-incompatible changes with `DeterminismViolationError` ([#128](https://github.com/oll4com/spaceapp/pull/128)) — *(resolves CORE-006 & #60, 29/29 test files & 237/237 tests passing)*.
-* **OTLP Worker & Workflow Spans Continuity:** Engineered end-to-end W3C trace continuity and OTLP JSON trace export from incoming API requests to Temporal workflows and retry attempts via zero-I/O sandbox interceptors and `callDuringReplay: false` sinks, with OTLP span links for continue-as-new/background continuations and strict attribute allowlisting ([#147](https://github.com/oll4com/spaceapp/pull/147)) — *(resolves #61, verified with fake OTLP collector & time-skipping integration suite)*.
-* **Full Contributor Development Stack Runner (`npm run dev:stack`):** Engineered single-command lifecycle supervision (`up`, `down`, `reset`, `status`, `verify`) orchestrating digest-pinned PostgreSQL (pgvector) and Temporal in Docker, automatic database migrations, hermetic OpenCode CLI installation with VSCode parity wrappers, and watch/HMR-enabled API, worker, and Vite web UI from source on non-colliding loopback ports ([#154](https://github.com/oll4com/spaceapp/pull/154)) — *(resolves #65, 9/9 unit and contract tests passing)*.
+## Projects
+
+**[LeetEnum](https://github.com/theleetsec/LeetSec-Tools)** · a reconnaissance pipeline for authorised security assessments. Twelve-plus passive sources queried in parallel, tiered DNS brute force and permutations, resumable checkpoints, and JSONL and Markdown reports. Ships through Homebrew and Docker with CI-tested releases.
+
+```sh
+brew install theleetsec/tap/leetenum
+leetenum example.com --subs
+```
 
 <br/>
 
-#### 🔹 [Hybrid (`limitlessprojects/Go-Hybrid`)](https://github.com/limitlessprojects/Go-Hybrid) — Memory-Safe Go Superset
-* **Fail-Closed Managed Safety Gate Hardening:** Fixed critical gate soundness bug in `tools/managed_gate.py` that silently reported PASS and erased committed baselines on empty program lists, and scoped uninspected block filtering and rebaselining to audited files ([#434](https://github.com/limitlessprojects/Go-Hybrid/pull/434)) — *(107/107 unit tests passing)*.
-* **Differential Corpus Output Verification:** Added strict parsing and stdout validation for registered `EXPECTED-OUTPUT` test assertions in `tools/differential_loop.py`, preventing false agreement reports on mismatched or missing output ([#441](https://github.com/limitlessprojects/Go-Hybrid/pull/441)) — *(resolves #396, 11/11 output tests passing & registered in CI)*.
-* **Cross-Platform Workload UTF-8 Encoding Parity:** Enforced explicit UTF-8 encoding in `benchmarks/workloads/shape.py` for file inspection and template generation, eliminating `UnicodeDecodeError` crashes on non-UTF-8 host locales (POSIX C / Windows CP1252) and adding locale simulation test suites ([#454](https://github.com/limitlessprojects/Go-Hybrid/pull/454)) — *(8/8 workload tests & 106/106 tooling tests passing)*.
-* **Blank Identifier Alias & Const Write Soundness [MERGED]:** Fixed compiler check bug where assigning to `_` falsely linked it to may-share and alias graphs, causing subsequent reads and discards of const composites to emit erroneous `HYB-E3006` write errors ([#473](https://github.com/limitlessprojects/Go-Hybrid/pull/473)) — *(resolves #460, selected & merged into `main` over competing PRs with verified strongest coverage; 29/29 `const_write` tests & 60/60 corpus tests passing)*.
-* **Affine Linear Object Pools ($500 Wildcard Proposal):** Authored institutional architecture proposal attacking `GUARANTEES.md` Row 10 to bring `sync.Pool` into Tier-0 Class-1 sendability with compile-time use-after-put rejection and deterministic sanitization contracts ([#458](https://github.com/limitlessprojects/Go-Hybrid/issues/458)).
+## BSides Dehradun
+
+Founder and lead organiser of Uttarakhand's security conference. Two days of talks, workshops, villages, and a CTF, run by volunteers.
+
+- **0x01 (2024)** · 187 attendees
+- **0x02 (Jan 2026, UPES)** · 255 attendees, international speakers
+- **0x03 (3 to 4 April 2027)** · targeting 400+, [call for papers open](https://bsidesdehradun.com)
 
 <br/>
 
-#### 🔹 [SUSU-LABS](https://github.com/SUSU-LABS) — Decentralized Web & Data Infrastructure
-*Author of 10 targeted reliability and boundary-hardening pull requests across full-stack repositories.*
-* **Web Client Architecture (`susu-web`):** Runtime response validation with Zod schemas ([#96](https://github.com/SUSU-LABS/susu-web/pull/96)); async auth session recovery ([#94](https://github.com/SUSU-LABS/susu-web/pull/94)); configurable API network timeouts ([#93](https://github.com/SUSU-LABS/susu-web/pull/93)); wallet race-condition concurrency guards ([#89](https://github.com/SUSU-LABS/susu-web/pull/89)).
-* **Backend API Resilience (`susu-api`):** Graceful PostgreSQL connection pool termination on SIGTERM/SIGINT ([#100](https://github.com/SUSU-LABS/susu-api/pull/100)); nonce-reaping lifecycle synchronization ([#101](https://github.com/SUSU-LABS/susu-api/pull/101)); group boundary invite leak protection ([#102](https://github.com/SUSU-LABS/susu-api/pull/102)).
-* **Blockchain Indexer (`susu-indexer`):** Resilient in-flight `pg_cron` alert scheduling ([#79](https://github.com/SUSU-LABS/susu-indexer/pull/79)).
-
-<br/>
-
-#### 🔹 Community Leadership & Security Ecosystem Building
-* **Founder & Technical Director, [The LeetSec](https://github.com/theleetsec):** Spearheading offensive security research, open-source auditing tools, vulnerability triage, and developer threat modeling training.
-* **Lead Organizer, [BSides Dehradun](https://github.com/bsidesdehradun) ([bsidesdehradun.com](https://bsidesdehradun.com)):** Founded the Dehradun chapter of Security BSides, fostering a collaborative security community, hosting workshops, and mentoring hundreds of engineers across threat hunting, reverse engineering, and cloud security.
-
----
-
-### 📊 Real-Time Activity & Telemetry
+## GitHub
 
 <div align="center">
-  <table border="0">
-    <tr>
-      <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=sudo-a-man&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b0f19&title_color=38bdf8&icon_color=10b981&text_color=94a3b8" width="100%" alt="Aman Kumar's GitHub Stats" />
-      </td>
-      <td align="center" width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=sudo-a-man&theme=tokyonight&hide_border=true&background=0b0f19&ring=38bdf8&fire=10b981&currStreakLabel=38bdf8&sideLabels=94a3b8" width="100%" alt="Aman Kumar's GitHub Streak" />
-      </td>
-    </tr>
-  </table>
+
+![Aman's GitHub stats](https://github-readme-stats.vercel.app/api?username=sudo-a-man&show_icons=true&hide_border=true&bg_color=0A0E14&title_color=2DD4BF&icon_color=38BDF8&text_color=AFC0D3&ring_color=2DD4BF)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sudo-a-man&layout=compact&hide_border=true&bg_color=0A0E14&title_color=2DD4BF&text_color=AFC0D3)
+
 </div>
 
----
-
-### 🛠️ Architecture & Technical Competencies
-
-```
-┌─────────────────────────────────┬────────────────────────────────────────────────────────────────────────┐
-│ Domain                          │ Core Competencies, Tools & Frameworks                                  │
-├─────────────────────────────────┼────────────────────────────────────────────────────────────────────────┤
-│ Security Architecture & SAST    │ Threat Modeling (STRIDE / PASTA), Zero-Trust Architecture,             │
-│                                 │ Secret Scanning, Semgrep, Dependency Risk Mitigation, Cryptographic    │
-│                                 │ Identity Resolution, Memory Safety & Boundary Defense                 │
-├─────────────────────────────────┼────────────────────────────────────────────────────────────────────────┤
-│ Systems, Languages & Core       │ TypeScript (Strict), Node.js (ESNext / Worker Threads), Python, Rust,  │
-│                                 │ Go, POSIX Shell / Bash, React, Next.js Runtimes                       │
-├─────────────────────────────────┼────────────────────────────────────────────────────────────────────────┤
-│ Infrastructure & Deployment     │ Deterministic CI/CD (GitHub Actions), Docker, Linux Kernel / POSIX,   │
-│                                 │ Cloudflare Workers, Edge Computing, PostgreSQL, Redis                  │
-├─────────────────────────────────┼────────────────────────────────────────────────────────────────────────┤
-│ Verification & Test Harnesses   │ Vitest, Jest, Playwright, Benchmark Automation, Mock Service Workers,  │
-│                                 │ Deterministic Boundary Fixtures, Automated Mutation & Invariance Tests │
-└─────────────────────────────────┴────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-### 📐 Engineering Principles
-
-1. **Safety by Construction:** Any system state that cannot be mathematically or logically validated must fail closed. Never allow an unhandled fallback or ambiguous authorization state to proceed silently.
-2. **Automated Evidence Over Assumption:** A pull request is not production-ready until CI independently proves that all security, governance, and functional invariants hold true under adversarial inputs.
-3. **Deterministic & Reproducible Builds:** Every deployment artifact and security test suite must be idempotent, reproducible, and verifiable across environments.
-4. **Ruthless Boundary Isolation:** Third-party dependencies, user inputs, and untrusted execution contexts must be sandboxed behind rigorous validation envelopes.
-
----
-
-### 📬 Connect & Collaborate
-
-```
-  ┌──────────────────────────────────────────────────────────────────────────────┐
-  │  GPG SIGNATURE: ALL PRODUCTION COMMITS CRYPTOGRAPHICALLY VERIFIED           │
-  │  LOCATION: DEHRADUN, INDIA  •  ACTIVE COLLABORATIONS: OPEN                  │
-  └──────────────────────────────────────────────────────────────────────────────┘
-```
-
-<div align="center">
-
-**[Direct Contact (Email)](mailto:sudoamansec@gmail.com)** &nbsp;•&nbsp;
-**[GitHub Profile](https://github.com/sudo-a-man)** &nbsp;•&nbsp;
-**[The LeetSec Org](https://github.com/theleetsec)** &nbsp;•&nbsp;
-**[BSides Dehradun](https://bsidesdehradun.com)** &nbsp;•&nbsp;
-**[X (@sudoaman)](https://x.com/sudoaman)**
-
 <br/>
 
-<sub>Architected with uncompromising rigor, deterministic standards, and verifiable excellence.</sub>
-
+<div align="center">
+<sub>Dehradun, India · <a href="mailto:sudoaman0x@gmail.com">sudoaman0x@gmail.com</a></sub>
 </div>

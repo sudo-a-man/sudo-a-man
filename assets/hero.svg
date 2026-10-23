@@ -1,0 +1,90 @@
+<svg width="1280" height="400" viewBox="0 0 1280 400" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0E14"/>
+      <stop offset="0.55" stop-color="#0B1118"/>
+      <stop offset="1" stop-color="#0D1522"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(200 60) rotate(36) scale(640 440)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DD4BF" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientTransform="translate(1200 380) rotate(-128) scale(560 380)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.1" fill="#9FB3C8" fill-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="400" rx="16" fill="url(#bg)"/>
+  <rect width="1280" height="400" rx="16" fill="url(#dots)"/>
+  <rect width="1280" height="400" rx="16" fill="url(#glow)"/>
+  <rect width="1280" height="400" rx="16" fill="url(#glow2)"/>
+  <rect x="0.5" y="0.5" width="1279" height="399" rx="15.5" stroke="#1E2A3A"/>
+
+  <!-- top meta -->
+  <text x="64" y="56" fill="#5B6B7D" font-size="13" letter-spacing="3" font-weight="600">DEHRADUN · INDIA</text>
+  <circle cx="1018" cy="51" r="4" fill="#2DD4BF"/>
+  <text x="1216" y="56" fill="#7D8FA3" font-size="13" letter-spacing="0.5" text-anchor="end" font-family="'SF Mono','JetBrains Mono',ui-monospace,monospace">available for research</text>
+
+  <!-- monogram -->
+  <rect x="64" y="100" width="62" height="62" rx="14" fill="#0E1722" stroke="#243242"/>
+  <rect x="64" y="100" width="62" height="62" rx="14" fill="url(#accent)" fill-opacity="0.08"/>
+  <text x="95" y="142" fill="#2DD4BF" font-size="27" font-weight="800" text-anchor="middle">AK</text>
+
+  <!-- name -->
+  <text x="146" y="146" fill="#F2F6FB" font-size="56" font-weight="800" letter-spacing="-1">Aman Kumar</text>
+
+  <!-- role -->
+  <text x="66" y="204" fill="#AFC0D3" font-size="18" letter-spacing="1" font-weight="500">
+    Security Researcher<tspan fill="#2DD4BF" dx="14">·</tspan><tspan dx="14" fill="#AFC0D3">Red Teamer</tspan><tspan fill="#2DD4BF" dx="14">·</tspan><tspan dx="14" fill="#AFC0D3">Bug Bounty Hunter</tspan>
+  </text>
+  <rect x="66" y="226" width="116" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <!-- credential chips: one row, sized to fit, left area only -->
+  <g font-size="13" font-weight="600" letter-spacing="0.2">
+    <rect x="66" y="262" width="266" height="42" rx="11" fill="#0E1826" stroke="#223246"/>
+    <circle cx="90" cy="283" r="4" fill="#2DD4BF"/>
+    <text x="106" y="288" fill="#DCE7F2">MSRC Leaderboard · Q3 &amp; Q4 2025</text>
+
+    <rect x="344" y="262" width="214" height="42" rx="11" fill="#0E1826" stroke="#223246"/>
+    <circle cx="368" cy="283" r="4" fill="#A78BFA"/>
+    <text x="384" y="288" fill="#DCE7F2">Founder · BSides Dehradun</text>
+  </g>
+  <g font-size="13" font-weight="600" letter-spacing="0.2">
+    <rect x="66" y="316" width="472" height="42" rx="11" fill="#0E1826" stroke="#223246"/>
+    <circle cx="90" cy="337" r="4" fill="#38BDF8"/>
+    <text x="106" y="342" fill="#DCE7F2">Hall of Fame · Microsoft · Brave · U.S. DHS · United Nations</text>
+  </g>
+
+  <!-- right rail: terminal card -->
+  <g font-family="'SF Mono','JetBrains Mono',ui-monospace,monospace">
+    <rect x="919" y="101" width="300" height="260" rx="14" fill="url(#accent)" fill-opacity="0.14"/>
+    <rect x="922" y="104" width="294" height="254" rx="12" fill="#101F31" stroke="#39546E" stroke-width="1.25"/>
+    <line x1="922" y1="146" x2="1216" y2="146" stroke="#20344A"/>
+    <circle cx="944" cy="126" r="4.5" fill="#FF5F57"/>
+    <circle cx="962" cy="126" r="4.5" fill="#FEBC2E"/>
+    <circle cx="980" cy="126" r="4.5" fill="#28C840"/>
+    <text x="1198" y="130" fill="#3D4C5E" font-size="11" text-anchor="end">~/recon</text>
+    <text x="944" y="178" font-size="13" fill="#6B7D90">$ whoami</text>
+    <text x="944" y="200" font-size="13" fill="#2DD4BF">sudo-a-man</text>
+    <text x="944" y="230" font-size="13" fill="#6B7D90">$ cat focus.txt</text>
+    <text x="944" y="252" font-size="13" fill="#DCE7F2">web · api · ai/llm redteam</text>
+    <text x="944" y="282" font-size="13" fill="#6B7D90">$ git log --upstream</text>
+    <text x="944" y="304" font-size="13" fill="#DCE7F2">14 PRs merged <tspan fill="#28C840">✓</tspan></text>
+    <text x="944" y="334" font-size="13" fill="#6B7D90">$ _<tspan fill="#2DD4BF">█</tspan></text>
+  </g>
+
+  <!-- bottom focus strip -->
+  <rect x="64" y="372" width="794" height="1" fill="#1A2636"/>
+  <g font-size="12.5" letter-spacing="0.4">
+    <text x="64" y="392" fill="#5B6B7D" font-weight="600">FOCUS</text>
+    <text x="116" y="392" fill="#8EA1B5">Offensive Security · Recon Automation · CI &amp; Supply-Chain Hardening · Nuclei / CVE Templates</text>
+  </g>
+</svg>
